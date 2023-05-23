@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+
+import RouteAll from './Components/RouteAll';
+
+// import QuestionnoSix from './Components/QuestionnoSix/QuestionnoSix';
+// import QuestionnoSeven from './Components/QuestionnoSeven/QuestionnoSeven';
+// import QuestionnoNine from './Components/QuestionnoNine/QuestionnoNine';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <RouteAll />  
+      {/* <QuestionnoSix /> */}
+      {/* <QuestionnoSeven /> */}
+      {/* <QuestionnoNine /> */}
+
+
+
     </div>
   );
 }
